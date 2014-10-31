@@ -1,0 +1,25 @@
+; multisprite.asm
+LoadSpritesLoop                  = $C059
+SpritesRight                     = $C0EB
+LatchController                  = $C07B
+Forever                          = $C06E
+palette                          = $E000
+SpritesLeft                      = $C0D0
+ReadLeftDone                     = $C0E2
+LoadPalettesLoop                 = $C04C
+ReadUp                           = $C091
+ReadDown                         = $C0AC
+ReadRightDone                    = $C0FD
+ReadDownDone                     = $C0C7
+vblankwait1                      = $C014
+ReadUpDone                       = $C0AC
+vblankwait2                      = $C038
+clrmem                           = $C019
+RESET                            = $C000
+sprites                          = $E020
+ReadLeft                         = $C0C7
+SpritesUp                        = $C09A
+NMI                              = $C071
+SpritesDown                      = $C0B5
+SetPaletteAddr                   = $C03D
+ReadRight                        = $C0E2
